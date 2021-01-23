@@ -6,7 +6,7 @@ st.image(logo,width=200)
 st.title("BMSCE CGPA Calculator")
 
 try:
-    num_sub = int(st.text_input("Number of subjects(Excluding non-credit subjects): "))
+    num_sub = int(st.text_input("Number of Subjects (Excluding non-credit subjects): "))
 except:
     pass
     # st.error("Invalid input! Try again!")
