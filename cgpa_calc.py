@@ -28,7 +28,7 @@ try:
         placeholder3 = st.empty()
         with placeholder.beta_container():
             try:
-                placeholder.header("Details of subject {}: ".format(i+1))
+                placeholder.subheader("Details of Subject {}: ".format(i+1))
             except:
                 pass
                 # placeholder.error("Invalid input! Try again!")
