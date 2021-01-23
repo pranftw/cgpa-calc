@@ -4,4 +4,4 @@
 
 A Streamlit app designed to calculate CGPA based on the college results.<br>
 <br>
-This version is specifically designed for BMSCE. Other colleges can fork this repo to customize the marking scheme.<br>
+This version is specifically designed for BMSCE. Other colleges can fork this repo to customize this according to the marking scheme.<br>
