@@ -20,15 +20,14 @@ except:
 # num_sub = int(input("Enter the number of subjects(Excluding non-credit subjects): "))
 # print()
 
-"""
-credits - List containing the credits for the subjects
-cie - List containing the Internals marks
-see - List containing the Semester End Examination marks
-total - List containing the total marks of CIE and SEE
-earned - List containing the credits earned
-earned_sum - List containing the product of earned[i] and credits[i]
-credits_sum - List containing the total sum of credits
-"""
+
+# credits - List containing the credits for the subjects
+# cie - List containing the Internals marks
+# see - List containing the Semester End Examination marks
+# total - List containing the total marks of CIE and SEE
+# earned - List containing the credits earned
+# earned_sum - List containing the product of earned[i] and credits[i]
+# credits_sum - List containing the total sum of credits
 
 credits = []
 cie = []
