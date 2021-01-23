@@ -1,10 +1,17 @@
+# Author: Pranav Sastry
+# Date Created: 23rd Jan 2021
+# TODO: If you're from another college/university, fork this repo and modify the code according to your marking scheme
+
 import streamlit as st
 from PIL import Image
 
+# Uni/College logo
 logo = Image.open("bmsce.png")
 st.image(logo,width=200)
+
 st.title("BMSCE CGPA Calculator")
 
+# Get the number of subjects in the semester
 try:
     num_sub = int(st.text_input("Number of Subjects (Excluding non-credit subjects): "))
 except:
@@ -12,6 +19,16 @@ except:
     # st.error("Invalid input! Try again!")
 # num_sub = int(input("Enter the number of subjects(Excluding non-credit subjects): "))
 # print()
+
+"""
+credits - List containing the credits for the subjects
+cie - List containing the Internals marks
+see - List containing the Semester End Examination marks
+total - List containing the total marks of CIE and SEE
+earned - List containing the credits earned
+earned_sum - List containing the product of earned[i] and credits[i]
+credits_sum - List containing the total sum of credits
+"""
 
 credits = []
 cie = []
