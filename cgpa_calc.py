@@ -8,7 +8,8 @@ import pandas as pd
 
 # Uni/College logo
 logo = Image.open("bmsce.png")
-st.image(logo,width=200)
+cgpa_calc = Image.open("cgpa-calc-logo.png")
+st.image([logo,cgpa_calc],width=150)
 
 st.title("BMSCE CGPA Calculator")
 st.markdown("Created by **Pranav Sastry, CSE '23**")
