@@ -11,6 +11,7 @@ logo = Image.open("bmsce.png")
 st.image(logo,width=200)
 
 st.title("BMSCE CGPA Calculator")
+st.markdown("Created by **Pranav Sastry, CSE '23**")
 st.subheader("Instructions")
 st.markdown("**1. Select the number of subjects excluding the non-credit subjects.<br>2. Select the number of credits registered for.<br>3. Enter the CIE (Continuous Internal Evaluation) marks out of 50.<br>4. Enter the SEE (Semester End Examination) marks out of 100.**",unsafe_allow_html=True)
 
