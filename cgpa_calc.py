@@ -4,6 +4,7 @@
 
 import streamlit as st
 from PIL import Image
+import pandas as pd
 
 # Uni/College logo
 logo = Image.open("bmsce.png")
