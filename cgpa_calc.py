@@ -1,6 +1,6 @@
 # Author: Pranav Sastry
 # Date Created: 23rd Jan 2021
-# TODO: If you're from another college/university, fork this repo and modify the code according to your marking scheme
+# TODO: If you're from another college/university, fork this repo and modify the code according to your marking scheme and the corresponding logos
 
 import streamlit as st
 from PIL import Image
