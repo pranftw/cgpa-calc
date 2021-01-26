@@ -2,7 +2,10 @@
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/pranavsastry/cgpa-calc/main/cgpa_calc.py)
 
-<img src="cgpa-calc-trans.png" alt="logo" width="200"/>
+<p float=left>
+  <img src="cgpa-calc-trans.png" alt="logo" width="200" />
+  <img src="cgpa-calc-trans-dark.png" alt="logo" width="200" />
+</p>
 
 ![demo](demo.gif)<br/>
 
