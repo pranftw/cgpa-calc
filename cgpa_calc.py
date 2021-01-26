@@ -14,7 +14,7 @@ st.image([logo,cgpa_calc],width=150)
 st.title("BMSCE CGPA Calculator")
 st.markdown("Created by **Pranav Sastry, CSE '23**")
 st.subheader("Instructions")
-st.markdown("**1. If you want to assign names for the subjects,<br>&nbsp &nbsp select the checkbox in the Utilities and enter the details. Else, continue.<br>2. Select the number of subjects excluding the non-credit subjects.<br>3. Select the number of credits registered for.<br>4. Enter the CIE (Continuous Internal Evaluation) marks out of 50. [Integer]<br>5. Enter the SEE (Semester End Examination) marks out of 100. [Integer]**",unsafe_allow_html=True)
+st.markdown("**1. If you want to assign names for the subjects, select the checkbox<br>&nbsp &nbsp in the Utilities and enter the details. Else, continue.<br>2. Select the number of subjects excluding the non-credit subjects.<br>3. Select the number of credits registered for.<br>4. Enter the CIE (Continuous Internal Evaluation) marks out of 50. [Integer]<br>5. Enter the SEE (Semester End Examination) marks out of 100. [Integer]**",unsafe_allow_html=True)
 
 subs = []
 # Get the number of subjects in the semester
