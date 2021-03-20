@@ -1,3 +1,3 @@
 
-printf("Hello World!")
-printf("This is BMSCE")
+print("Hello World!")
+print("This is BMSCE")
