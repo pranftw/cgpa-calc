@@ -5,6 +5,8 @@
 import streamlit as st
 from PIL import Image
 import pandas as pd
+import subprocess
+from subprocess import PIPE,Popen
 
 # Uni/College logo
 logo = Image.open("bmsce.png")
@@ -187,5 +189,13 @@ try:
             stats_data = ["%.3f"%(cgpa),grades_str,max_cie,max_see,max_total]
             stats = pd.DataFrame(stats_data,stats_rows,stats_cols)
             st.dataframe(stats)
+except:
+    pass
+
+try:
+    process = subprocess.Popen(['python PyDummy.py'],shell=True,stdin=PIPE,stdout=PIPE)
+    stdout,_ = process.communicate()
+    stdout_decoded = str(stdout.decode('utf-8'))
+    st.write(stdout_decoded)
 except:
     pass
