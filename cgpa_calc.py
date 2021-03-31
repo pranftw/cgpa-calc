@@ -192,11 +192,3 @@ try:
 except:
     pass
 
-try:
-    process = subprocess.Popen(['python PyDummy.py'],shell=True,stdin=PIPE,stdout=PIPE)
-    stdout,_ = process.communicate()
-    stdout_decoded = str(stdout.decode('utf-8'))
-    stdout_decoded = stdout_decoded.replace('\n','<br>')
-    st.markdown(stdout_decoded,unsafe_allow_html=True)
-except:
-    pass
